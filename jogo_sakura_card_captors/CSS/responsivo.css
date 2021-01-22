@@ -1,0 +1,67 @@
+/*imagem responsiva para vários tipos de telas*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    
+    height: 100vh;
+    background-image: url(../sakura-fundo5.jpg);
+    /*deixa o background com efeito paralax*/
+    background-attachment: fixed;
+    /* cover é para nunca deixar espaço sem imagem*/
+    background-size: cover;
+  }
+
+
+  /* aqui troco a imagem pra cada resolução na ordem do maior pro menor */
+  @media screen and (max-width: 1500px) {
+    .header.fullheight {
+      background-image: url(../sakura-fundo5.jpg);
+    }
+  }
+  @media screen and (max-width: 1080px) {
+    .header.fullheight {
+      background-image: url(../sakura-fundo5.jpg);
+    }
+  section{
+    width: 220px;
+    align-items: center;
+   }
+  }
+  @media screen and (max-width: 800px) {
+    .header.fullheight {
+      background-image: url(../sakura-fundo5.jpg);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .header.fullheight {
+      background-image: url(../sakura-fundo5.jpg);
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .header.fullheight {
+      background-image: url(../sakura-fundo5.jpg);
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .fullheight {
+      background-image: url(../sakura-fundo5.jpg);
+  }
+ }
+
+/*body{
+    position: absolute;
+    width: 1488px;
+    height: 1025px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(/sakura-fundo5.jpg)no-repeat right top fixed;
+    background-color: #D699A9;
+    
+    
+}*/

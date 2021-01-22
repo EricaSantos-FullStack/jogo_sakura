@@ -1,0 +1,208 @@
+/*outros elementos da pagina*/
+
+*{
+    cursor: url(https://vignette.wikia.nocookie.net/ccs/images/3/3e/Clow_Cursor1.png),pointer !important;
+}
+
+#retangulo{
+    position: absolute;
+    width: 720px;
+    height: 100px;
+    left: 30px;
+    top: 80px;
+
+    background: linear-gradient(178.32deg, #C647E5 1.43%, rgba(241, 5, 231, 0) 125.77%);
+}
+
+#texto{
+    
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+    
+    font-family: 'Kumar One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 64px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #FEF9F9; 
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 232px;
+    height: 486px;
+    
+}
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  #switch0:checked ~ .flip-container .flip-card-inner, #switch1:checked ~ .flip-container .flip-card-inner,
+  #switch2:checked ~ .flip-container .flip-card-inner, #switch3:checked ~ .flip-container .flip-card-inner,
+  #switch4:checked ~ .flip-container .flip-card-inner, #switch5:checked ~ .flip-container .flip-card-inner,
+  #switch6:checked ~ .flip-container .flip-card-inner, #switch7:checked ~ .flip-container .flip-card-inner,
+  #switch8:checked ~ .flip-container .flip-card-inner, #switch9:checked ~ .flip-container .flip-card-inner
+  {
+    transform: rotateY(180deg);
+  }
+
+  #switch0, #switch1, #switch2, #switch3, #switch4, #switch5, #switch6, #switch7, #switch8, #switch9{
+    display: none;
+}
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  
+  /* Style the back side */
+  .flip-card-back {
+    
+    background: linear-gradient(134.31deg, #F5CDD8 46.41%, #E257B1 70.8%);
+    ;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+  }
+
+  #fotinho{
+      width: 170px;
+      height: 170px;
+      margin-top: 30px;
+      transform-style: preserve-3d;
+      border: 2px solid #f1f1f1;
+      border-radius: 10px;
+  }
+
+  h2{
+      margin-top: 35px;
+      margin-right: 15px;
+      margin-left: 5px;
+      
+  }
+
+  h3{
+      margin-top: 30px;
+  }
+
+  label{
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+
+  }
+
+  section{
+    margin-top: 200px;
+    margin-left: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 720px;
+    height: 2000px;
+    justify-content: space-between;
+    margin-bottom: 0%;
+
+  }
+
+  button{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    left: 250px;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 100px;
+
+    background: linear-gradient(178.32deg, #C647E5 1.43%, rgba(241, 5, 231, 0) 125.77%);
+
+  }
+
+#resposta{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /* .frente,.verso{
+    position:absolute;
+} */
+
+
+/* #container{
+    display: flex;
+    
+    width: 690px;
+    height: 2373px;
+    border: 1px solid #111111;
+    position: relative;
+    margin-top: 210px;
+    margin-left: 30px;
+    
+}
+
+.card{
+    width: 232px;
+    height: 486px;
+    border-radius: 10px;
+    border: 1px solid #7412b6;
+    
+}
+
+img{
+    width: 20%;
+}
+
+.face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.face_back{
+    width: 10%;
+}  
+
+*/
