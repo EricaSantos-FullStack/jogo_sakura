@@ -1,6 +1,10 @@
 # Jogo Sakura Card Captors 🌸
 Vamos testar se você é fã mesmo da Sakura!
 
+<img align="center" alt="print(cardcaptor-sakura-card)" height="150" width="150" src="https://user-images.githubusercontent.com/71906862/177210734-79e39f9c-fb7e-4705-9ed7-dc2466b527c4.gif">
+
+
+
 ### 🧐 Como funciona? 
     1. Jogo de pergunta e respostas.
     2. Vire cada cartinha conforme for respondendo as questões. 
